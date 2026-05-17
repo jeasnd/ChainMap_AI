@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI 投资标的论证：选股理由、关键数据、壁垒与风险。" />
+  <title>个股论证 · ChainMap AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">ChainMap <span class="logo-accent">AI</span></a>
+      <button type="button" class="nav-toggle" aria-label="打开菜单" aria-expanded="false"></button>
+      <nav class="nav" id="site-nav">
+        <a href="index.html">首页</a>
+        <a href="hot-topics.html">热门方向</a>
+        <a href="article-memory.html">专题</a>
+        <a href="index.html#disclaimer">说明</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-article page-enter">
+    <article class="container article-container invest-page">
+      <div id="app-root" class="stock-detail">
+        <p class="feed-loading">正在加载论证…</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 chainmapai.com · ChainMap AI</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="js/invest-app.js"></script>
+  <script>InvestApp.initPage("stock");</script>
+</body>
+</html>

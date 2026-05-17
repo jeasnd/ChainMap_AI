@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI 时代内存（HBM/DRAM）供需、产业链与关注公司：需求从哪来、供给如何扩、谁在上游谁在下游。" />
+  <title>AI 时代的内存：供需与产业链 · ChainMap AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">ChainMap <span class="logo-accent">AI</span></a>
+      <button type="button" class="nav-toggle" aria-label="打开菜单" aria-expanded="false"></button>
+      <nav class="nav" id="site-nav">
+        <a href="index.html">首页</a>
+        <a href="hot-topics.html">热门方向</a>
+        <a href="article-memory.html" class="is-active">专题</a>
+        <a href="index.html#disclaimer">说明</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-article page-enter">
+    <article class="article-page container article-container">
+      <header class="article-header">
+        <p class="article-kicker">深度专题 · 第 1 期</p>
+        <h1 class="article-h1">AI 时代的内存：需求从哪来、供给怎样走、产业链里谁在什么位置</h1>
+        <p class="article-meta">产业框架说明 · 非证券投资咨询 · 数据与结论随市场变化</p>
+      </header>
+
+      <nav class="article-toc" aria-label="本页目录">
+        <strong class="article-toc-title">本页目录</strong>
+        <ol>
+          <li><a href="#why-memory">为什么 AI 把“内存”推到舞台中央</a></li>
+          <li><a href="#demand">需求在哪里：训练、推理与数据中心</a></li>
+          <li><a href="#supply">供给怎样：HBM、DRAM 周期与产能瓶颈</a></li>
+          <li><a href="#chain">产业链拆解：从设备材料到模组与云</a></li>
+          <li><a href="#companies">市场常讨论的公司与逻辑（为何会被提起）</a></li>
+          <li><a href="#risk">风险与观察指标</a></li>
+        </ol>
+      </nav>
+
+      <div class="article-body">
+        <h2 id="why-memory">为什么 AI 把“内存”推到舞台中央</h2>
+        <p>
+          大模型训练与推理不仅消耗算力（GPU/ASIC），也极度消耗<strong>高带宽、大容量、低延迟</strong>的存储与内存资源。与消费级 PC 以 DDR 为主不同，数据中心与 AI 加速器场景里，<strong>HBM（高带宽存储器）</strong>与高端 <strong>DRAM</strong> 成为绑定 GPU 销售与集群扩展能力的关键环节之一。内存若短缺或涨价，会直接传导到服务器 BOM、云厂商成本与 capex 节奏，因此资本市场会把“内存”单独作为 AI 产业链里的一条主线来跟踪。
+        </p>
+
+        <h2 id="demand">需求在哪里：训练、推理与数据中心</h2>
+        <p>可粗略分成三类需求来源（彼此有重叠）：</p>
+        <ul>
+          <li><strong>训练侧</strong>：多卡并行、大 batch、长上下文与 checkpoint，会推高对 HBM 容量与带宽的要求；超大规模集群建设往往带来“阶跃式”拉货。</li>
+          <li><strong>推理侧</strong>：线上服务与边缘部署强调时延与能效；推理集群规模扩大同样消耗大量 DRAM/HBM，但节奏与训练 capex 可能不完全同步。</li>
+          <li><strong>通用数据中心与换机</strong>：传统企业上云、数据库与检索、AI 以外的业务同样消耗内存；消费电子若复苏也会牵动传统 DRAM 的供需平衡。</li>
+        </ul>
+        <p>
+          因此看“AI 内存需求”时，不宜只盯单一指标，而要同时看：<strong>云与互联网巨头的 capex 指引</strong>、<strong>GPU 出货量与产品组合</strong>、以及<strong>传统 DRAM 终端</strong>是否在抢产能。
+        </p>
+
+        <h2 id="supply">供给怎样：HBM、DRAM 周期与产能瓶颈</h2>
+        <p>
+          <strong>HBM</strong> 工艺复杂、良率爬坡与封装产能（常与先进封装产线绑定）决定了有效供给；扩产周期长，容易出现“需求先起、供给滞后”的阶段性格局。<strong>通用 DRAM</strong> 仍呈现较强的周期性：资本开支、库存、现货价与合约价都是经典观察变量。
+        </p>
+        <p>
+          供给端常见“瓶颈”表述包括：先进制程与良率、<strong>CoWoS 等 2.5D/3D 封装产能</strong>、基板与材料、以及地缘与出口管制对设备与区域产能布局的影响。任何一环收紧，都可能表现为交付周期拉长或报价上行。
+        </p>
+
+        <h2 id="chain">产业链拆解：从设备材料到模组与云</h2>
+        <p>自上游至下游，便于建立地图（示意，非穷尽）：</p>
+        <div class="article-table-wrap">
+          <table class="article-table">
+            <thead>
+              <tr>
+                <th>环节</th>
+                <th>主要内容</th>
+                <th>投资/研究时常看什么</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>设备与材料</td>
+                <td>刻蚀、薄膜、检测、光刻周边；硅片、化学品、特气等</td>
+                <td>资本开支周期、订单能见度、份额变化</td>
+              </tr>
+              <tr>
+                <td>存储原厂（IDM）</td>
+                <td>HBM、DRAM、NAND 研发与制造</td>
+                <td>HBM 渗透率、ASP、稼动率、库存天数</td>
+              </tr>
+              <tr>
+                <td>先进封装 / 代工协作</td>
+                <td>Interposer、TSV、部分后段与晶圆代工协同</td>
+                <td>CoWoS 等产能、客户结构、毛利率</td>
+              </tr>
+              <tr>
+                <td>模组与分销</td>
+                <td>内存模组、品牌与渠道</td>
+                <td>价差、库存、下游 PC/服务器需求</td>
+              </tr>
+              <tr>
+                <td>云与品牌服务器</td>
+                <td>采购与定制服务器、自研芯片与整机</td>
+                <td>capex、AI 收入占比、供应链安全策略</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="companies">市场常讨论的公司与逻辑（为何会被提起）</h2>
+        <p>以下为<strong>资本市场与产业报道里常被拿来讨论</strong>的标的类型与典型名字，用于理解“市场在讲什么故事”，<strong>不是买卖建议</strong>。实际投资需自行查阅财报、公告与合规信息。</p>
+
+        <h3 class="article-h3">存储原厂与 HBM 主力</h3>
+        <ul>
+          <li><strong>三星电子、SK 海力士、美光（Micron）</strong>：全球 DRAM/HBM 核心供给方。逻辑通常是：HBM 在 AI 服务器中的价值量提升 → 原厂 ASP 与利润弹性；但需警惕 capex 大增后的周期下行与库存修正。</li>
+        </ul>
+
+        <h3 class="article-h3">晶圆代工与先进封装</h3>
+        <ul>
+          <li><strong>台积电（TSMC）</strong>：先进制程与 CoWoS 等封装产能，常被视作 AI 芯片能否顺利交付的“瓶颈环节”之一。</li>
+          <li><strong>日月光 ASE、Amkor</strong>等：后段封测与部分先进封装参与方，订单与稼动率与终端拉货相关。</li>
+        </ul>
+
+        <h3 class="article-h3">设备与材料（间接受益于扩产与升级）</h3>
+        <ul>
+          <li><strong>应用材料、泛林、东京电子、ASML（设备生态）</strong>等：存储与逻辑扩产、技术迭代会牵动设备采购节奏；波动性往往来自资本开支预期变化。</li>
+        </ul>
+
+        <h3 class="article-h3">A 股 / 港股中常被对照的环节</h3>
+        <ul>
+          <li><strong>中微公司、北方华创</strong>等（半导体设备）：主题上对标“国产替代+资本开支”，但业绩与订单节奏需个案跟踪，且与存储周期的β并不总一致。</li>
+          <li><strong>长电科技、通富微电</strong>等（封测）：先进封装叙事与稼动率是关键，客户结构与海外收入占比也会影响估值。</li>
+          <li><strong>兆易创新</strong>等（利基存储与 MCU 等）：与大宗 DRAM/HBM 不是同一赛道，需避免简单混为一谈。</li>
+        </ul>
+
+        <p class="article-note">
+          上述公司为何会被提起：通常是因为其在<strong>产能、份额、技术节点或客户绑定</strong>上，与“AI 拉动的内存与先进封装”叙事存在对应关系；股价仍受利率、风险偏好、业绩兑现与地缘等多重因素影响。
+        </p>
+
+        <h2 id="risk">风险与观察指标</h2>
+        <ul>
+          <li><strong>周期风险</strong>：存储行业历史上多次出现价格急跌与库存减值，需区分“结构性份额提升”与“周期性涨价”。</li>
+          <li><strong>技术路线风险</strong>：HBM 迭代、CXL/新型存储若加速渗透，可能改变价值分配。</li>
+          <li><strong>政策与供应链风险</strong>：出口管制、关税与区域化产能布局可能重塑供给曲线。</li>
+        </ul>
+        <p>可跟踪的公开线索包括：原厂资本开支与稼动率指引、现货/合约价指标、云厂商 capex、GPU 供应链交付周期等。</p>
+      </div>
+
+      <footer class="article-footer">
+        <a class="btn-secondary" href="index.html">← 返回首页</a>
+        <a class="btn-secondary" href="guide-hosting.html">建站与域名说明 →</a>
+      </footer>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 chainmapai.com · ChainMap AI</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
