@@ -1,19 +1,25 @@
 {
   "meta": {
-    "updatedAt": "2026-05-17T12:00:00+08:00",
+    "updatedAt": "2026-05-18T13:10:31+08:00",
     "disclaimer": "以下为研究框架内的优选讨论对象，不构成买卖建议；数据需以最新公告为准。"
   },
   "stocks": [
     {
       "id": "sk-hynix",
-      "topicIds": ["storage-hbm"],
+      "topicIds": [
+        "storage-hbm"
+      ],
       "rank": 1,
       "market": "KR",
       "symbol": "000660.KS",
       "name": "SK 海力士",
       "nameEn": "SK hynix",
       "oneLiner": "HBM 领先供应商之一，供给紧张时议价能力与产能利用率常为市场关注核心。",
-      "moatTags": ["HBM 技术与产能", "与头部 GPU 生态绑定", "存储周期龙头地位"],
+      "moatTags": [
+        "HBM 技术与产能",
+        "与头部 GPU 生态绑定",
+        "存储周期龙头地位"
+      ],
       "moatDetail": "在高端 DRAM/HBM 领域具备规模与技术积累，客户认证周期长，切换成本高。",
       "thesis": [
         "HBM 在 AI 服务器 BOM 中占比提升，是算力 capex 向存储扩散的直接受益者。",
@@ -21,25 +27,50 @@
         "与 NVIDIA 等生态的深度配套关系构成短期难以复制的竞争壁垒。"
       ],
       "metrics": [
-        { "label": "业务焦点", "value": "DRAM、HBM、NAND", "asOf": "框架说明", "source": "公司公开业务描述" },
-        { "label": "毛利率", "value": "— 请更新季报", "asOf": "待更新", "source": "财报" }
+        {
+          "label": "业务焦点",
+          "value": "DRAM、HBM、NAND",
+          "asOf": "框架说明",
+          "source": "公司公开业务描述"
+        },
+        {
+          "label": "毛利率",
+          "value": "— 请更新季报",
+          "asOf": "待更新",
+          "source": "财报"
+        }
       ],
       "evidence": [
-        { "type": "行业", "title": "存储/HBM 供需为 AI 产业链常见跟踪主线", "url": "https://www.skhynix.com/", "date": "—" }
+        {
+          "type": "行业",
+          "title": "存储/HBM 供需为 AI 产业链常见跟踪主线",
+          "url": "https://www.skhynix.com/",
+          "date": "—"
+        }
       ],
-      "risks": ["存储价格周期性下行", "HBM 竞争加剧导致份额或毛利承压", "地缘与出口管制不确定性"],
+      "risks": [
+        "存储价格周期性下行",
+        "HBM 竞争加剧导致份额或毛利承压",
+        "地缘与出口管制不确定性"
+      ],
       "updatedAt": "2026-05-17T12:00:00+08:00"
     },
     {
       "id": "mu",
-      "topicIds": ["storage-hbm"],
+      "topicIds": [
+        "storage-hbm"
+      ],
       "rank": 2,
       "market": "US",
       "symbol": "MU",
       "name": "美光科技",
       "nameEn": "Micron Technology",
       "oneLiner": "美股纯正存储敞口代表，HBM 放量与 DRAM 景气为其主要研究线索。",
-      "moatTags": ["美国存储龙头", "HBM 追赶与扩产", "规模与研发"],
+      "moatTags": [
+        "美国存储龙头",
+        "HBM 追赶与扩产",
+        "规模与研发"
+      ],
       "moatDetail": "全球少数具备先进 DRAM/HBM 能力的 IDM 之一，资本开支与制程迭代决定长期份额。",
       "thesis": [
         "美股投资者配置 AI 存储叙事时最常使用的标的之一，流动性好。",
@@ -47,333 +78,536 @@
         "与云厂商、GPU 平台的认证进度是验证「难替代性」的关键观察点。"
       ],
       "metrics": [
-        { "label": "交易所", "value": "NASDAQ", "asOf": "—", "source": "—" },
-        { "label": "毛利率", "value": "— 请更新季报", "asOf": "待更新", "source": "SEC 10-Q/10-K" }
+        {
+          "label": "交易所",
+          "value": "NASDAQ",
+          "asOf": "—",
+          "source": "—"
+        },
+        {
+          "label": "毛利率",
+          "value": "— 请更新季报",
+          "asOf": "待更新",
+          "source": "SEC 10-Q/10-K"
+        }
       ],
       "evidence": [
-        { "type": "财报", "title": "Micron Investor Relations", "url": "https://investors.micron.com/", "date": "—" }
+        {
+          "type": "财报",
+          "title": "Micron Investor Relations",
+          "url": "https://investors.micron.com/",
+          "date": "—"
+        }
       ],
-      "risks": ["DRAM/NAND 价格周期", "HBM 份额不及韩系龙头", "资本开支过高压制 FCF"],
+      "risks": [
+        "DRAM/NAND 价格周期",
+        "HBM 份额不及韩系龙头",
+        "资本开支过高压制 FCF"
+      ],
       "updatedAt": "2026-05-17T12:00:00+08:00"
     },
     {
       "id": "samsung-005930",
-      "topicIds": ["storage-hbm"],
+      "topicIds": [
+        "storage-hbm"
+      ],
       "rank": 3,
       "market": "KR",
       "symbol": "005930.KS",
       "name": "三星电子",
       "nameEn": "Samsung Electronics",
       "oneLiner": "存储+代工双轮，HBM 追赶节奏与集团资源为其差异化逻辑。",
-      "moatTags": ["综合半导体巨头", "存储与代工协同", "客户多元化"],
+      "moatTags": [
+        "综合半导体巨头",
+        "存储与代工协同",
+        "客户多元化"
+      ],
       "thesis": [
         "若 HBM 良率与产能爬坡顺利，具备凭借规模反击的潜在弹性。",
         "业务多元，相对纯存储股波动可能更平滑，适合作为组合补充而非唯一敞口。"
       ],
       "metrics": [
-        { "label": "备注", "value": "港股投资者常通过韩股或 ADR 间接配置", "asOf": "—", "source": "—" }
+        {
+          "label": "备注",
+          "value": "港股投资者常通过韩股或 ADR 间接配置",
+          "asOf": "—",
+          "source": "—"
+        }
       ],
       "evidence": [],
-      "risks": ["HBM 落后时的估值折价", "消费电子拖累整体盈利"],
+      "risks": [
+        "HBM 落后时的估值折价",
+        "消费电子拖累整体盈利"
+      ],
       "updatedAt": "2026-05-17T12:00:00+08:00"
     },
     {
       "id": "cohr",
-      "topicIds": ["interconnect-optical"],
+      "topicIds": [
+        "interconnect-optical"
+      ],
       "rank": 1,
       "market": "US",
       "symbol": "COHR",
       "name": "Coherent",
       "nameEn": "Coherent Corp.",
       "oneLiner": "光通信与激光器件重要供应商，AI 数据中心升级受益标的之一。",
-      "moatTags": ["光器件技术", "并购整合后的产品组合", "数据中心客户"],
+      "moatTags": [
+        "光器件技术",
+        "并购整合后的产品组合",
+        "数据中心客户"
+      ],
       "thesis": [
         "带宽升级驱动高速光器件需求，与 AI 集群建设节奏相关。",
         "需跟踪订单能见度与毛利率是否随高端产品占比提升而改善。"
       ],
       "metrics": [
-        { "label": "毛利率", "value": "— 请更新季报", "asOf": "待更新", "source": "财报" }
+        {
+          "label": "毛利率",
+          "value": "— 请更新季报",
+          "asOf": "待更新",
+          "source": "财报"
+        }
       ],
       "evidence": [
-        { "type": "财报", "title": "Coherent Investor Relations", "url": "https://www.coherent.com/investors", "date": "—" }
+        {
+          "type": "财报",
+          "title": "Coherent Investor Relations",
+          "url": "https://www.coherent.com/investors",
+          "date": "—"
+        }
       ],
-      "risks": ["电信资本开支下滑拖累", "竞争加剧压价"],
+      "risks": [
+        "电信资本开支下滑拖累",
+        "竞争加剧压价"
+      ],
       "updatedAt": "2026-05-17T11:30:00+08:00"
     },
     {
       "id": "fn",
-      "topicIds": ["interconnect-optical"],
+      "topicIds": [
+        "interconnect-optical"
+      ],
       "rank": 2,
       "market": "US",
       "symbol": "FN",
       "name": "Fabrinet",
       "nameEn": "Fabrinet",
       "oneLiner": "光模块制造与封装外包龙头之一，业绩与行业出货量景气高度相关。",
-      "moatTags": ["制造壁垒", "客户粘性", "良率与交付"],
+      "moatTags": [
+        "制造壁垒",
+        "客户粘性",
+        "良率与交付"
+      ],
       "thesis": [
         "作为供应链「卖铲人」，可观察光模块景气 without 承担全部品牌风险。",
         "毛利率通常低于芯片设计，但现金流与订单波动更贴近行业出货量。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["客户集中度", "行业价格战"],
+      "risks": [
+        "客户集中度",
+        "行业价格战"
+      ],
       "updatedAt": "2026-05-17T11:30:00+08:00"
     },
     {
       "id": "zhongji-300308",
-      "topicIds": ["interconnect-optical"],
+      "topicIds": [
+        "interconnect-optical"
+      ],
       "rank": 1,
       "market": "A",
       "symbol": "300308",
       "name": "中际旭创",
       "nameEn": "Zhongji Innolight",
       "oneLiner": "A 股光模块龙头代表，全球 AI 光模块出货叙事中的常见映射标的。",
-      "moatTags": ["800G/1.6T 产品", "海外云客户", "规模制造"],
+      "moatTags": [
+        "800G/1.6T 产品",
+        "海外云客户",
+        "规模制造"
+      ],
       "thesis": [
         "中国投资者配置「AI 光模块」主线时最常研究的 A 股标的之一。",
         "需核对出口、客户结构与毛利率是否匹配「高端产品占比提升」叙事。"
       ],
       "metrics": [
-        { "label": "市场", "value": "深交所创业板", "asOf": "—", "source": "—" }
+        {
+          "label": "市场",
+          "value": "深交所创业板",
+          "asOf": "—",
+          "source": "—"
+        }
       ],
       "evidence": [
-        { "type": "公告", "title": "巨潮资讯 — 定期报告", "url": "http://www.cninfo.com.cn/", "date": "—" }
+        {
+          "type": "公告",
+          "title": "巨潮资讯 — 定期报告",
+          "url": "http://www.cninfo.com.cn/",
+          "date": "—"
+        }
       ],
-      "risks": ["贸易摩擦与关税", "预期过高导致估值回调", "技术路线变更"],
+      "risks": [
+        "贸易摩擦与关税",
+        "预期过高导致估值回调",
+        "技术路线变更"
+      ],
       "updatedAt": "2026-05-17T11:30:00+08:00"
     },
     {
       "id": "vrt",
-      "topicIds": ["infra-dc-power"],
+      "topicIds": [
+        "infra-dc-power"
+      ],
       "rank": 1,
       "market": "US",
       "symbol": "VRT",
       "name": "Vertiv",
       "nameEn": "Vertiv Holdings",
       "oneLiner": "数据中心电力与热管理设备龙头叙事，AI 上架率提升的直接受益者类型。",
-      "moatTags": ["电源与液冷", "全球 DC 客户", "订单 backlog"],
+      "moatTags": [
+        "电源与液冷",
+        "全球 DC 客户",
+        "订单 backlog"
+      ],
       "thesis": [
         "AI 机柜功率密度上升推动配电、UPS 与液冷方案升级。",
         "订单与 backlog 是验证「稳步扩散」是否兑现的核心指标。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["DC 建设放缓", "竞争与价格战"],
+      "risks": [
+        "DC 建设放缓",
+        "竞争与价格战"
+      ],
       "updatedAt": "2026-05-17T10:00:00+08:00"
     },
     {
       "id": "dlr",
-      "topicIds": ["infra-dc-power"],
+      "topicIds": [
+        "infra-dc-power"
+      ],
       "rank": 2,
       "market": "US",
       "symbol": "DLR",
       "name": "Digital Realty",
       "nameEn": "Digital Realty Trust",
       "oneLiner": "数据中心 REITs 代表，关注上架率、租赁 spread 与 AI 租户占比。",
-      "moatTags": ["全球机房资产", "REITs 现金流", "长租约"],
+      "moatTags": [
+        "全球机房资产",
+        "REITs 现金流",
+        "长租约"
+      ],
       "thesis": [
         "提供基础设施层的「收租」敞口，波动特征与半导体股不同。",
         "利率与 REITs 估值框架需一并纳入研究。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["利率上行压制估值", "新建供给过剩区域"],
+      "risks": [
+        "利率上行压制估值",
+        "新建供给过剩区域"
+      ],
       "updatedAt": "2026-05-17T10:00:00+08:00"
     },
     {
       "id": "gds-9698",
-      "topicIds": ["infra-dc-power"],
+      "topicIds": [
+        "infra-dc-power"
+      ],
       "rank": 1,
       "market": "HK",
       "symbol": "9698.HK",
       "name": "万国数据",
       "nameEn": "GDS Holdings",
       "oneLiner": "港股 IDC 代表之一，中国智算与上架率为其主要观察变量。",
-      "moatTags": ["一线城市机房资源", "云与互联网客户"],
+      "moatTags": [
+        "一线城市机房资源",
+        "云与互联网客户"
+      ],
       "thesis": [
         "港股配置「中国 AI 算力基础设施」时的常见标的类型。",
         "需结合负债、上架率与国内云 capex 政策综合判断。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["融资与负债", "国内云 capex 波动"],
+      "risks": [
+        "融资与负债",
+        "国内云 capex 波动"
+      ],
       "updatedAt": "2026-05-17T10:00:00+08:00"
     },
     {
       "id": "nvda",
-      "topicIds": ["compute-gpu"],
+      "topicIds": [
+        "compute-gpu"
+      ],
       "rank": 1,
       "market": "US",
       "symbol": "NVDA",
       "name": "英伟达",
       "nameEn": "NVIDIA",
       "oneLiner": "AI 算力生态核心，壁垒来自 CUDA 生态、产品迭代与供应链话语权。",
-      "moatTags": ["GPU 垄断性份额", "软件生态", "全栈平台"],
+      "moatTags": [
+        "GPU 垄断性份额",
+        "软件生态",
+        "全栈平台"
+      ],
       "thesis": [
         "训练与推理芯片的事实标准制定者之一，产业链议价能力强。",
         "研究重点从「是否受益」转向「capex 增速与竞争格局（ASIC/AMD）」。"
       ],
       "metrics": [
-        { "label": "数据中心收入占比", "value": "— 请更新季报", "asOf": "待更新", "source": "财报" }
+        {
+          "label": "数据中心收入占比",
+          "value": "— 请更新季报",
+          "asOf": "待更新",
+          "source": "财报"
+        }
       ],
       "evidence": [
-        { "type": "财报", "title": "NVIDIA Investor Relations", "url": "https://investor.nvidia.com/", "date": "—" }
+        {
+          "type": "财报",
+          "title": "NVIDIA Investor Relations",
+          "url": "https://investor.nvidia.com/",
+          "date": "—"
+        }
       ],
-      "risks": ["估值已反映高增长", "云厂商自研芯片", "出口管制"],
+      "risks": [
+        "估值已反映高增长",
+        "云厂商自研芯片",
+        "出口管制"
+      ],
       "updatedAt": "2026-05-17T09:00:00+08:00"
     },
     {
       "id": "amd",
-      "topicIds": ["compute-gpu"],
+      "topicIds": [
+        "compute-gpu"
+      ],
       "rank": 2,
       "market": "US",
       "symbol": "AMD",
       "name": "AMD",
       "nameEn": "Advanced Micro Devices",
       "oneLiner": "GPU/CPU 双产品线，AI 加速器份额提升为其主要弹性来源。",
-      "moatTags": ["MI 系列 GPU", "EPYC CPU", "开源生态友好"],
+      "moatTags": [
+        "MI 系列 GPU",
+        "EPYC CPU",
+        "开源生态友好"
+      ],
       "thesis": [
         "作为第二大生态，受益于云厂商「第二供应商」策略。",
         "份额每提升 1ppt 对收入弹性可观，但需持续验证软件栈成熟度。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["不及 NVDA 的生态粘性", "制造依赖外部代工"],
+      "risks": [
+        "不及 NVDA 的生态粘性",
+        "制造依赖外部代工"
+      ],
       "updatedAt": "2026-05-17T09:00:00+08:00"
     },
     {
       "id": "cambricon-688256",
-      "topicIds": ["compute-gpu"],
+      "topicIds": [
+        "compute-gpu"
+      ],
       "rank": 1,
       "market": "A",
       "symbol": "688256",
       "name": "寒武纪",
       "nameEn": "Cambricon",
       "oneLiner": "A 股 AI 芯片映射标的之一，需严格核对收入结构与可持续订单。",
-      "moatTags": ["国产 AI 芯片", "政策与国产化"],
+      "moatTags": [
+        "国产 AI 芯片",
+        "政策与国产化"
+      ],
       "thesis": [
         "反映国内「算力自主」主题，波动常与政策与订单新闻相关。",
         "研究时必须区分训练/推理收入与政府类订单占比。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["商业化不及预期", "高估值与亏损", "竞争加剧"],
+      "risks": [
+        "商业化不及预期",
+        "高估值与亏损",
+        "竞争加剧"
+      ],
       "updatedAt": "2026-05-17T09:00:00+08:00"
     },
     {
       "id": "vst",
-      "topicIds": ["energy-ai-power"],
+      "topicIds": [
+        "energy-ai-power"
+      ],
       "rank": 1,
       "market": "US",
       "symbol": "VST",
       "name": "Vistra",
       "nameEn": "Vistra Corp.",
       "oneLiner": "北美电力与发电资产，AI 用电叙事下的常见能源映射。",
-      "moatTags": ["发电资产", "电价暴露", "区域市场"],
+      "moatTags": [
+        "发电资产",
+        "电价暴露",
+        "区域市场"
+      ],
       "thesis": [
         "数据中心用电上升提升市场对基荷与调峰电源的关注。",
         "需结合区域电价、燃料成本与监管政策。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["电价监管", "燃料价格波动"],
+      "risks": [
+        "电价监管",
+        "燃料价格波动"
+      ],
       "updatedAt": "2026-05-16T18:00:00+08:00"
     },
     {
       "id": "ceg",
-      "topicIds": ["energy-ai-power"],
+      "topicIds": [
+        "energy-ai-power"
+      ],
       "rank": 2,
       "market": "US",
       "symbol": "CEG",
       "name": "Constellation Energy",
       "nameEn": "Constellation Energy",
       "oneLiner": "核电与清洁基荷电源代表，长期 AI 用电逻辑中的「稳定电力」叙事。",
-      "moatTags": ["核电资产", "长期购电协议潜力"],
+      "moatTags": [
+        "核电资产",
+        "长期购电协议潜力"
+      ],
       "thesis": [
         "核电作为 7×24 基荷，与 24h 运行的智算中心匹配度高。",
         "项目签约与电价机制是验证叙事的关键。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["政策与安全事故风险", "项目延期"],
+      "risks": [
+        "政策与安全事故风险",
+        "项目延期"
+      ],
       "updatedAt": "2026-05-16T18:00:00+08:00"
     },
     {
       "id": "cgnpower-600900",
-      "topicIds": ["energy-ai-power"],
+      "topicIds": [
+        "energy-ai-power"
+      ],
       "rank": 1,
       "market": "A",
       "symbol": "600900",
       "name": "长江电力",
       "nameEn": "China Yangtze Power",
       "oneLiner": "A 股稳健电力龙头，AI 用电主题下的「防御型」映射（间接、长周期）。",
-      "moatTags": ["水电资产", "现金流稳定", "分红"],
+      "moatTags": [
+        "水电资产",
+        "现金流稳定",
+        "分红"
+      ],
       "thesis": [
         "不直接卖算力，但反映「电力稀缺」长期逻辑时的常见配置类型。",
         "弹性低于半导体，适合作为组合平衡而非进攻主仓。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["来水波动", "电价市场化改革"],
+      "risks": [
+        "来水波动",
+        "电价市场化改革"
+      ],
       "updatedAt": "2026-05-16T18:00:00+08:00"
     },
     {
       "id": "msft",
-      "topicIds": ["app-software-agent"],
+      "topicIds": [
+        "app-software-agent"
+      ],
       "rank": 1,
       "market": "US",
       "symbol": "MSFT",
       "name": "微软",
       "nameEn": "Microsoft",
       "oneLiner": "云 + Copilot + 企业软件生态，应用层「平台型」首选研究对象之一。",
-      "moatTags": ["Azure", "Office/Copilot", "企业客户粘性"],
+      "moatTags": [
+        "Azure",
+        "Office/Copilot",
+        "企业客户粘性"
+      ],
       "thesis": [
         "具备将 AI 能力货币化到现有企业客户的渠道与产品矩阵。",
         "观察 Copilot 付费席位、Azure AI 收入占比与毛利率变化。"
       ],
       "metrics": [],
       "evidence": [
-        { "type": "财报", "title": "Microsoft Investor Relations", "url": "https://www.microsoft.com/investor", "date": "—" }
+        {
+          "type": "财报",
+          "title": "Microsoft Investor Relations",
+          "url": "https://www.microsoft.com/investor",
+          "date": "—"
+        }
       ],
-      "risks": ["AI 投入压制短期利润", "监管与反垄断"],
+      "risks": [
+        "AI 投入压制短期利润",
+        "监管与反垄断"
+      ],
       "updatedAt": "2026-05-15T12:00:00+08:00"
     },
     {
       "id": "crm",
-      "topicIds": ["app-software-agent"],
+      "topicIds": [
+        "app-software-agent"
+      ],
       "rank": 2,
       "market": "US",
       "symbol": "CRM",
       "name": "Salesforce",
       "nameEn": "Salesforce",
       "oneLiner": "企业 SaaS + Agentforce 叙事，看 AI 如何嵌入 CRM 工作流收费。",
-      "moatTags": ["CRM 数据", "企业订阅", "Agent 产品"],
+      "moatTags": [
+        "CRM 数据",
+        "企业订阅",
+        "Agent 产品"
+      ],
       "thesis": [
         "企业软件是 AI Agent 落地最快的场景之一之一。",
         "ARR、净留存率与 AI 附加包定价是核心验证指标。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["竞争加剧", "AI 功能难以单独提价"],
+      "risks": [
+        "竞争加剧",
+        "AI 功能难以单独提价"
+      ],
       "updatedAt": "2026-05-15T12:00:00+08:00"
     },
     {
       "id": "kingsoft-3888",
-      "topicIds": ["app-software-agent"],
+      "topicIds": [
+        "app-software-agent"
+      ],
       "rank": 1,
       "market": "HK",
       "symbol": "3888.HK",
       "name": "金山软件",
       "nameEn": "Kingsoft",
       "oneLiner": "港股办公与 WPS AI 映射，看订阅转化与 AI 功能付费率。",
-      "moatTags": ["WPS 生态", "办公场景", "订阅制"],
+      "moatTags": [
+        "WPS 生态",
+        "办公场景",
+        "订阅制"
+      ],
       "thesis": [
         "中国 ToC/ToB 办公场景的 AI 落地代表类型之一。",
         "需跟踪 WPS 月活、付费率与 AI 功能使用数据披露。"
       ],
       "metrics": [],
       "evidence": [],
-      "risks": ["竞争与免费替代", "AI 投入侵蚀利润"],
+      "risks": [
+        "竞争与免费替代",
+        "AI 投入侵蚀利润"
+      ],
       "updatedAt": "2026-05-15T12:00:00+08:00"
     }
   ]
