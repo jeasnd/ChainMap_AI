@@ -112,15 +112,6 @@ a:hover {
   letter-spacing: 0.2em;
 }
 
-.hero-eyebrow {
-  margin: 0 0 1rem;
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.14em;
-  color: var(--text-muted);
-  text-transform: lowercase;
-}
-
 .hero-content--home .hero-title {
   margin-bottom: 0;
 }
@@ -559,96 +550,35 @@ a:hover {
 
 .page-home .hero--landing {
   flex: 1;
-  min-height: calc(100vh - var(--header-h) - 220px);
-  padding-bottom: 3rem;
+  min-height: calc(100vh - var(--header-h) - 120px);
+  padding-bottom: 2rem;
 }
 
 .site-footer--home {
   margin-top: auto;
-  padding: 0 1.5rem 2rem;
+  padding: 0 1.5rem 2.5rem;
   border-top: none;
   background: transparent;
 }
 
 .footer-home {
-  max-width: 40rem;
+  max-width: 36rem;
   margin-inline: auto;
   text-align: center;
 }
 
-.footer-home-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35rem 0.5rem;
-  margin-bottom: 1.25rem;
-  font-size: 0.88rem;
-  color: var(--text-muted);
-}
-
-.footer-home-brand {
-  font-weight: 600;
-  color: var(--text);
-}
-
-.footer-home-sep {
-  color: var(--line);
-  user-select: none;
-}
-
-.footer-home-link {
-  color: var(--text-muted);
-  text-decoration: none;
-  font-family: var(--font-mono);
-  font-size: 0.82rem;
-}
-
-.footer-home-link:hover {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.footer-disclaimer {
-  margin: 0 0 1.25rem;
-  padding: 1.1rem 1.35rem;
-  text-align: left;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
-}
-
-.footer-disclaimer-title {
+.footer-home-note {
   margin: 0 0 0.65rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 0.82rem;
+  line-height: 1.6;
   color: var(--text-muted);
-}
-
-.footer-disclaimer p {
-  margin: 0 0 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.65;
-  color: var(--text-muted);
-}
-
-.footer-disclaimer p:last-child {
-  margin-bottom: 0;
-}
-
-.footer-disclaimer strong {
-  color: var(--text);
-  font-weight: 600;
 }
 
 .footer-home-copy {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 .footer-copy {
