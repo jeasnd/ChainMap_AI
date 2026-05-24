@@ -688,6 +688,108 @@ a:hover {
   box-shadow: var(--shadow-sm);
 }
 
+.chain-overview {
+  margin-bottom: 2rem;
+  padding: 1.5rem 1.5rem 1.35rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.chain-overview-title {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: center;
+}
+
+.chain-overview-lead {
+  margin: 0 0 1.25rem;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  text-align: center;
+  max-width: 52ch;
+  margin-inline: auto;
+}
+
+.chain-overview-diagram {
+  overflow-x: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.chain-overview-svg {
+  display: block;
+  width: 100%;
+  min-width: 640px;
+  height: auto;
+}
+
+.chain-overview-svg .co-label {
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  fill: #1e293b;
+}
+
+.chain-overview-svg .co-label--head {
+  font-size: 14px;
+  fill: #0f172a;
+}
+
+.chain-overview-svg .co-chip {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  fill: #1e40af;
+}
+
+.chain-overview-svg .co-caption {
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 11px;
+  fill: #64748b;
+}
+
+.chain-overview-svg .co-caption--net {
+  font-weight: 600;
+  fill: #0e7490;
+}
+
+.chain-overview-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.chain-overview-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.chain-overview-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.chain-overview-dot--l1 { background: #2563eb; }
+.chain-overview-dot--l2 { background: #7c3aed; }
+.chain-overview-dot--l3 { background: #0891b2; }
+.chain-overview-dot--l4 { background: #65a30d; }
+
 .chain-framework-title {
   margin: 0 0 0.5rem;
   font-family: var(--font-serif);

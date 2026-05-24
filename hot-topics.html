@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AI 产业链当前热门投资方向：按更新时间排序，新热在上，含资本扩散六层框架与热度评分。" />
-  <title>热门方向 · ChainMap AI</title>
+  <meta name="description" content="AI产业链：算力、存储、互连等环节做什么、HBM/DRAM 等细分各自发挥什么作用。" />
+  <title>AI产业链 · ChainMap AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -17,27 +17,23 @@
       <button type="button" class="nav-toggle" aria-label="打开菜单" aria-expanded="false"></button>
       <nav class="nav" id="site-nav">
         <a href="index.html">首页</a>
-        <a href="hot-topics.html" class="is-active">热门方向</a>
-        <a href="article-memory.html">专题</a>
-        <a href="index.html#disclaimer">说明</a>
+        <a href="hot-topics.html" class="is-active">AI产业链</a>
+        <a href="companies.html">热门公司分析</a>
       </nav>
     </div>
   </header>
 
   <main class="main-article page-enter">
-    <div class="container article-container invest-page">
-      <header class="invest-page-header">
-        <p class="article-kicker">宏观 · 第一层</p>
-        <h1 class="article-h1">AI 当前热门投资方向</h1>
-        <p class="section-subtitle">
-          按<strong>最近更新时间</strong>排序：越新越靠上。基于「算力 → 存储 → 互连 → 基础设施 → 能源 → 应用」资本扩散框架整理，数据来自 <code>data/hot-topics.json</code>（后续可接自动抓取）。
-        </p>
+    <div class="container article-container article-container--wide invest-page">
+      <header class="invest-page-header research-page-header">
+        <p class="section-eyebrow">INDUSTRY · AI CHAIN</p>
+        <h1 class="research-h1">AI产业链</h1>
       </header>
       <div id="app-root" class="topic-feed" aria-live="polite">
-        <p class="feed-loading">正在加载方向列表…</p>
+        <p class="feed-loading">正在加载产业列表…</p>
       </div>
-      <p class="invest-disclaimer-inline">
-        热度与优选标的均为<strong>研究框架</strong>，不构成证券买卖建议。请结合最新财报与自身风险承受能力独立决策。
+      <p class="footer-note footer-note--inline">
+        内容为 AI 产业链梳理与思维框架，不构成投资建议。
       </p>
     </div>
   </main>
@@ -49,7 +45,8 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="js/catalog-seed.js"></script>
   <script src="js/invest-app.js"></script>
-  <script>InvestApp.initPage("hot-topics");</script>
+  <script>InvestApp.initPage("industry-chain");</script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-18T13:10:31+08:00",
+    "updatedAt": "2026-05-24T12:00:00+08:00",
     "note": "ChainMap AI · chainmapai.com · 种子数据；每周由 GitHub Actions 或人工按 skill 更新"
   },
   "topics": [
@@ -39,16 +39,9 @@
       "logic": "集群规模扩大带来东西向流量与带宽需求上升，800G/1.6T 等升级周期推动光模块与高端交换机放量；叙事上常跟随算力与存储 capex 之后出现。",
       "highlight": "增长能见度较高，但需区分「真实出货」与「预期透支」。",
       "firstSeenAt": "2026-05-17T08:00:00+08:00",
-      "updatedAt": "2026-05-17T11:30:00+08:00",
-      "sources": [
-        "产业链资本扩散框架",
-        "光通信行业景气公开讨论"
-      ],
-      "stockIds": [
-        "cohr",
-        "fn",
-        "zhongji-300308"
-      ]
+      "updatedAt": "2026-05-24T12:00:00+08:00",
+      "sources": ["产业链资本扩散框架", "光通信行业景气公开讨论"],
+      "stockIds": ["cohr", "fn", "zhongji-300308", "nokia-nok"]
     },
     {
       "id": "infra-dc-power",
