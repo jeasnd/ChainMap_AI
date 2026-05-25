@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-24T20:00:00+08:00",
+    "updatedAt": "2026-05-25T13:24:34+08:00",
     "disclaimer": "以下为研究框架内的优选讨论对象，不构成买卖建议；数据需以最新公告为准。"
   },
   "stocks": [
@@ -41,10 +41,24 @@
         }
       ],
       "evidence": [
-        { "type": "行业", "title": "存储/HBM 供需为 AI 产业链常见跟踪主线", "url": "https://www.skhynix.com/", "date": "—" },
-        { "type": "深度", "title": "深度专题：SK 海力士 HBM 龙头与存储周期", "url": "article-sk-hynix.html", "date": "2026-05" }
+        {
+          "type": "行业",
+          "title": "存储/HBM 供需为 AI 产业链常见跟踪主线",
+          "url": "https://www.skhynix.com/",
+          "date": "—"
+        },
+        {
+          "type": "深度",
+          "title": "深度专题：SK 海力士 HBM 龙头与存储周期",
+          "url": "article-sk-hynix.html",
+          "date": "2026-05"
+        }
       ],
-      "risks": ["存储价格周期性下行", "HBM 竞争加剧导致份额或毛利承压", "地缘与出口管制不确定性"],
+      "risks": [
+        "存储价格周期性下行",
+        "HBM 竞争加剧导致份额或毛利承压",
+        "地缘与出口管制不确定性"
+      ],
       "updatedAt": "2026-05-24T20:00:00+08:00"
     },
     {
@@ -248,14 +262,21 @@
     },
     {
       "id": "nokia-nok",
-      "topicIds": ["interconnect-optical"],
+      "topicIds": [
+        "interconnect-optical"
+      ],
       "rank": 3,
       "market": "US",
       "symbol": "NOK",
       "name": "诺基亚",
       "nameEn": "Nokia Corporation",
       "oneLiner": "InP 磷化铟 / PIC 光子集成 + 电信级光网络系统；AI 光互联技术储备强、业绩兑现仍待观察的 NOK。",
-      "moatTags": ["InP / PIC", "Infinera 光子栈", "光传输与 DCI", "Bell Labs / 专利"],
+      "moatTags": [
+        "InP / PIC",
+        "Infinera 光子栈",
+        "光传输与 DCI",
+        "Bell Labs / 专利"
+      ],
       "moatDetail": "收购 Infinera 后同时具备 InP 光子集成、硅光、DSP 与光网络系统交付能力，全球玩家稀少；壁垒在材料—芯片—系统工程组合，但 AI 光网络收入占比尚未彻底改变整体增速。",
       "thesis": [
         "AI 集群扩容遭遇「铜线墙」，数据中心全面光化趋势利好 InP / PIC、DCI 与光传输，与 capex 长周期同向。",
@@ -265,15 +286,45 @@
         "Mobile Networks 等老业务与光通信 capex 周期仍会压制短期爆发力与十倍叙事。"
       ],
       "metrics": [
-        { "label": "营收同比增速", "value": "— 请更新季报", "asOf": "待更新", "source": "财报" },
-        { "label": "Network Infrastructure 占比", "value": "— 请更新分部数据", "asOf": "待更新", "source": "财报" },
-        { "label": "InP / PIC 相关披露", "value": "— 跟踪投资者日/年报", "asOf": "待更新", "source": "财报" }
+        {
+          "label": "营收同比增速",
+          "value": "— 请更新季报",
+          "asOf": "待更新",
+          "source": "财报"
+        },
+        {
+          "label": "Network Infrastructure 占比",
+          "value": "— 请更新分部数据",
+          "asOf": "待更新",
+          "source": "财报"
+        },
+        {
+          "label": "InP / PIC 相关披露",
+          "value": "— 跟踪投资者日/年报",
+          "asOf": "待更新",
+          "source": "财报"
+        }
       ],
       "evidence": [
-        { "type": "财报", "title": "Nokia Investor Relations", "url": "https://www.nokia.com/about-us/investors/", "date": "—" },
-        { "type": "行业", "title": "深度专题：AI 时代的诺基亚（含 InP / Infinera）", "url": "article-nokia.html", "date": "2026-05" }
+        {
+          "type": "财报",
+          "title": "Nokia Investor Relations",
+          "url": "https://www.nokia.com/about-us/investors/",
+          "date": "—"
+        },
+        {
+          "type": "行业",
+          "title": "深度专题：AI 时代的诺基亚（含 InP / Infinera）",
+          "url": "article-nokia.html",
+          "date": "2026-05"
+        }
       ],
-      "risks": ["InP / PIC 技术领先但 AI 收入兑现仍需时间", "运营商无线业务拖累整体增速", "光通信 capex 周期波动", "与 Ciena、Ericsson 等竞争加剧"],
+      "risks": [
+        "InP / PIC 技术领先但 AI 收入兑现仍需时间",
+        "运营商无线业务拖累整体增速",
+        "光通信 capex 周期波动",
+        "与 Ciena、Ericsson 等竞争加剧"
+      ],
       "updatedAt": "2026-05-24T18:00:00+08:00"
     },
     {

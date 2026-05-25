@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-24T12:00:00+08:00",
+    "updatedAt": "2026-05-25T13:24:34+08:00",
     "note": "ChainMap AI · chainmapai.com · 种子数据；每周由 GitHub Actions 或人工按 skill 更新"
   },
   "topics": [
@@ -40,8 +40,16 @@
       "highlight": "增长能见度较高，但需区分「真实出货」与「预期透支」。",
       "firstSeenAt": "2026-05-17T08:00:00+08:00",
       "updatedAt": "2026-05-24T12:00:00+08:00",
-      "sources": ["产业链资本扩散框架", "光通信行业景气公开讨论"],
-      "stockIds": ["cohr", "fn", "zhongji-300308", "nokia-nok"]
+      "sources": [
+        "产业链资本扩散框架",
+        "光通信行业景气公开讨论"
+      ],
+      "stockIds": [
+        "cohr",
+        "fn",
+        "zhongji-300308",
+        "nokia-nok"
+      ]
     },
     {
       "id": "infra-dc-power",
